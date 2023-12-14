@@ -1,0 +1,232 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+}
+
+
+body {
+ 
+    background-image: cover;
+ 
+    
+}
+
+
+.container {
+    text-align: center;
+   
+    margin: 0 auto;
+   background-color:#8a2be2;
+    background-image: cover;
+
+}
+
+
+
+h1 {
+    color: #fff;
+    text-align: center;
+    z-index: 9999;
+    margin-top: 5px;
+}
+
+
+
+.container img {
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+ margin-top: 25px;
+  
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+
+.btn-group {
+    text-align: center;
+    padding: 10px 20px;
+    display: flex; /* Use flexbox para alinhar os botões verticalmente */
+    flex-direction: column; /* Empilhe os botões verticalmente */
+    align-items: center; /* Centralize os botões horizontalmente */
+}
+
+button {
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: rgb(15,15,15);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    width: 200px;
+    font-size: 15px;
+    font-weight: 600;
+
+    margin-bottom: 10px; /* Adicione margem na parte inferior para separar os botões */
+}
+
+button:hover {
+   background-color: rgb(70,17,104);
+ 
+}
+
+
+/* Estilo das caixas (boxes) */
+.boxes {
+    display: flex;
+   flex-wrap: wrap;
+    margin: 20px 0;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center; 
+  
+}
+
+.box {
+    width: 50%; /* Define a largura das caixas */
+    
+    padding: 50px;
+    flex: 1 1 250px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.box img {
+    max-width: 20%;
+    border-radius: 5px;
+
+} 
+
+p {
+    text-align: left;
+}
+
+.feedback-container {
+    background-color: #585986;
+    padding: 50px;
+ 
+}
+.boxes .card{
+    border: 2px solid #fff;
+    display: flex;
+    flex: 1 1 200px;
+    padding: 10px;
+    justify-content: center;
+    width: 100%;
+    margin: 10px; 
+    padding: 20px;
+    border-radius: 5px;
+  
+
+    
+}
+
+.card img {
+   border-radius: 5px;
+    max-width: 50px;
+}
+.user{
+    
+    color: #fff;
+    width: 60%;
+    
+}
+
+.textarea{
+    flex: 1;
+    background-color: #8a2be2;
+    padding: 10px;
+    width: 100%;
+    
+
+   
+    
+}
+.textarea p{
+    color: white;
+    text-align: left;
+}
+
+
+
+.contact {
+    background-color: #8a2be2;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 3rem;
+}
+
+.first-info img {
+    width: 140px;
+    height: auto;
+}
+
+.contact-info h4 {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact-info p{
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all .42s;
+}
+
+.contact-info p:hover {
+    color: #585986;
+}
+
+.social-icon i{
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: all .42s;
+}
+
+.social-icon i:hover {
+    transform: scale(1.3);
+}
+
+.end-text {
+    background-color: #8a2be2;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+section {
+    padding: 100px;
+}
+
+.five img {
+    max-width: 200px;
+    border-radius: 5px;
+
+    
+}
+
+.end-text p {
+    text-align: center; 
+}
+
+
+
+
+

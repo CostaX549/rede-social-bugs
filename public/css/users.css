@@ -1,0 +1,51 @@
+.notifications {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.notification-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.notification-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.notification-content {
+    flex-grow: 1;
+}
+
+.sender-name {
+    font-weight: bold;
+}
+
+.sender-username {
+    color: #fff;
+}
+
+.notification-actions button {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.accept {
+    background-color: green;
+}
+
+.accept:hover {
+    background-color: #006400;
+}
+
+.reject {
+    background-color: red;
+}
+
+.reject:hover {
+    background-color: #5E1914;
+}
